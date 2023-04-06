@@ -9,7 +9,7 @@ function Card() {
 
     function addFavs(dentista) {
 
-        const favsArray = JSON.parse(localStorage.getItem("favs") || [])
+        const favsArray = JSON.parse(localStorage.getItem("favs") || '[]')
         const existFav = favsArray.some((u) => u.id === dentista.id)
 
         console.log('favs ' , existFav, favsArray)

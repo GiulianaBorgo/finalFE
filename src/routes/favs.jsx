@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function Destacados(){
   
-    const [favs, setUsers] = useState(JSON.parse(localStorage.getItem("favs") || []))
+    const [favs, setUsers] = useState(JSON.parse(localStorage.getItem("favs") || '[]'))
 
     function deleteFav(fav) {
       const existUser = favs.some((u) => u.id === fav.id)
