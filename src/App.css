@@ -1,0 +1,24 @@
+#root {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  width: auto; 
+  height: 100vh;
+}
+
+.fav{
+  height: 76vh;
+}
+
+.theme{
+  padding: 0.3rem 0.6rem;
+  background-color: #DADDE2;
+  
+}
+
+.theme img{
+  width: 30px;
+}
+.section{
+  height: 80.5vh;
+}
